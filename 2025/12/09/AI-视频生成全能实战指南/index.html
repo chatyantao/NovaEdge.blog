@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="一份实战可用的 AI 视频生成操作手册，从选图、写提示词，到完整工作流与避坑总结。基于《AI 视频生成全能实战指南》整理优化。"/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="NovaEdge Studio"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="AI 视频生成全能实战指南：从一张图到完整短片"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="一份实战可用的 AI 视频生成操作手册，从选图、写提示词，到完整工作流与避坑总结。基于《AI 视频生成全能实战指南》整理优化。"/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="NovaEdge Blog"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="https://chatyantao.github.ioimg/home-bg.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="https://chatyantao.github.ioimg/home-bg.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>AI 视频生成全能实战指南：从一张图到完整短片 - NovaEdge Blog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">NovaEdge</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                首页
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                归档
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                标签
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                分类
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://novaedge.vip">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>AI 视频生成全能实战指南：从一张图到完整短片</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2025-12-09
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/AI视频/">#AI视频</a> <a href="/tags/提示词/">#提示词</a> <a href="/tags/Sora/">#Sora</a> <a href="/tags/Img2Video/">#Img2Video</a> <a href="/tags/Veo/">#Veo</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                        
+
+<a href="/categories/教程/">教程</a>
+
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <blockquote>
+<p>成功的 AI 视频 &#x3D; 高质量“图纸”（源图片） + 精准“施工指令”（提示词）</p>
+</blockquote>
+<p>这篇文章是 NovaEdge Blog 的第一篇技术内容，也是我们自己做 Sora、Veo、Kling 等视频时真实使用的那套“工作流模板”。内容参考原始 PDF《AI 视频生成全能实战指南》。</p>
+<p>本文经过结构化梳理，适合直接用于：</p>
+<ul>
+<li>YouTube Shorts 创作</li>
+<li>动画短片制作</li>
+<li>广告&#x2F;创意视觉</li>
+<li>AI 角色连续视频制作</li>
+</ul>
+<hr>
+<h1 id="一、前期准备：源图质量决定-80-视频效果"><a href="#一、前期准备：源图质量决定-80-视频效果" class="headerlink" title="一、前期准备：源图质量决定 80% 视频效果"></a>一、前期准备：源图质量决定 80% 视频效果</h1><p>AI 视频的完成度，很大程度取决于你给的“源图”。</p>
+<h2 id="源图黄金标准（务必遵守）"><a href="#源图黄金标准（务必遵守）" class="headerlink" title="源图黄金标准（务必遵守）"></a>源图黄金标准（务必遵守）</h2><ul>
+<li>比例：16:9 横屏  </li>
+<li>分辨率：4K &#x2F; 8K（越大越好）  </li>
+<li>构图：近景或特写  </li>
+<li>五官清晰无遮挡  </li>
+<li>光线充足、主体边缘清楚</li>
+</ul>
+<h3 id="示例提示词：人物类"><a href="#示例提示词：人物类" class="headerlink" title="示例提示词：人物类"></a>示例提示词：人物类</h3><p>25岁女性，短发，五官清晰，微笑表情，白色上衣，4K 超高清摄影，柔光照明，近景特写</p>
+<p>shell<br>复制代码</p>
+<h3 id="示例提示词：动漫类"><a href="#示例提示词：动漫类" class="headerlink" title="示例提示词：动漫类"></a>示例提示词：动漫类</h3><p>日系动画风格，蓝发少女，白色校服，干净背景，高质量插画，线条清晰，色彩明快</p>
+<p>yaml<br>复制代码</p>
+<p>结论：源图越清晰、越干净，AI 视频越稳定。</p>
+<hr>
+<h1 id="二、图生视频（Img2Video）万能提示词模板"><a href="#二、图生视频（Img2Video）万能提示词模板" class="headerlink" title="二、图生视频（Img2Video）万能提示词模板"></a>二、图生视频（Img2Video）万能提示词模板</h1><p>绝大多数人写提示词的问题是：<br>只说“让她走路”，却不告诉模型“怎么拍”。</p>
+<p>以下是通用结构化模板：</p>
+<h2 id="1-核心指令（必写）"><a href="#1-核心指令（必写）" class="headerlink" title="1. 核心指令（必写）"></a>1. 核心指令（必写）</h2><p>生成一段动态视频。请确保主体外形、衣着、发型与上传图片完全一致。</p>
+<p>shell<br>复制代码</p>
+<h2 id="2-场景与氛围（选写）"><a href="#2-场景与氛围（选写）" class="headerlink" title="2. 场景与氛围（选写）"></a>2. 场景与氛围（选写）</h2><p>背景：夜晚的霓虹城市街道，雨后地面反光<br>光照：对比强烈的侧光，霓虹反射在角色脸上<br>氛围：冷色调、赛博朋克风格</p>
+<p>shell<br>复制代码</p>
+<h2 id="3-主体动作"><a href="#3-主体动作" class="headerlink" title="3. 主体动作"></a>3. 主体动作</h2><p>主体：与参考图一致<br>动作：缓慢向前走，偶尔侧头看镜头<br>表情：从冷静到微微放松</p>
+<p>shell<br>复制代码</p>
+<h2 id="4-镜头语言"><a href="#4-镜头语言" class="headerlink" title="4. 镜头语言"></a>4. 镜头语言</h2><p>镜头类型：中近景<br>镜头运动：slow dolly-in（缓慢向前推）<br>视角：eye-level 平视</p>
+<p>shell<br>复制代码</p>
+<h2 id="5-画面风格"><a href="#5-画面风格" class="headerlink" title="5. 画面风格"></a>5. 画面风格</h2><p>整体风格：电影感、写实<br>质感：细节锐利、8K<br>色彩：霓虹紫 + 蓝 + 黑</p>
+<p>shell<br>复制代码</p>
+<h2 id="6-负向提示词（必须）"><a href="#6-负向提示词（必须）" class="headerlink" title="6. 负向提示词（必须）"></a>6. 负向提示词（必须）</h2><p>模糊、脸部崩坏、随机闪动、低质量、画面抖动、光影错乱</p>
+<p>yaml<br>复制代码</p>
+<hr>
+<h1 id="三、文生视频（Text2Video）脚本结构"><a href="#三、文生视频（Text2Video）脚本结构" class="headerlink" title="三、文生视频（Text2Video）脚本结构"></a>三、文生视频（Text2Video）脚本结构</h1><p>没有源图时，你可以从“骨架”开始写，而不是写长段落。</p>
+<h2 id="1-基本句式（主体-动作-场景）"><a href="#1-基本句式（主体-动作-场景）" class="headerlink" title="1. 基本句式（主体 + 动作 + 场景）"></a>1. 基本句式（主体 + 动作 + 场景）</h2><p>示例：</p>
+<blockquote>
+<p>一个穿连帽外套的少年站在雨夜城市天台上练拳，情绪从迷茫到坚定。</p>
+</blockquote>
+<h2 id="2-时间轴拆分（更容易稳定输出）"><a href="#2-时间轴拆分（更容易稳定输出）" class="headerlink" title="2. 时间轴拆分（更容易稳定输出）"></a>2. 时间轴拆分（更容易稳定输出）</h2><p>0-2秒： establishing shot 开场 + 主体亮相<br>2-5秒：主体动作 + 镜头运动<br>5-8秒：视觉高潮 + 慢动作收尾</p>
+<p>markdown<br>复制代码</p>
+<h2 id="3-视觉风格参数"><a href="#3-视觉风格参数" class="headerlink" title="3. 视觉风格参数"></a>3. 视觉风格参数</h2><ul>
+<li>参考电影：如《银翼杀手》《少数派报告》  </li>
+<li>主色调：三种主色  </li>
+<li>光照：主光源方向 + 强度  </li>
+<li>景深：浅景深 &#x2F; 景深拉长</li>
+</ul>
+<h2 id="4-声音结构（非常重要）"><a href="#4-声音结构（非常重要）" class="headerlink" title="4. 声音结构（非常重要）"></a>4. 声音结构（非常重要）</h2><p>环境噪音：风声 &#x2F; 雨声 &#x2F; 城市环境声<br>动作音效：脚步声、布料摩擦、金属声<br>音乐：低频电子氛围</p>
+<p>yaml<br>复制代码</p>
+<hr>
+<h1 id="四、从故事到视频的完整工作流（高阶）"><a href="#四、从故事到视频的完整工作流（高阶）" class="headerlink" title="四、从故事到视频的完整工作流（高阶）"></a>四、从故事到视频的完整工作流（高阶）</h1><p>适合做系列短剧、IP 视频、YouTube 故事类频道。</p>
+<h2 id="工作流步骤"><a href="#工作流步骤" class="headerlink" title="工作流步骤"></a>工作流步骤</h2><ol>
+<li><p><strong>生成微故事</strong><br>ChatGPT&#x2F;Claude 生成 300–500 字短篇故事。</p>
+</li>
+<li><p><strong>角色设定</strong><br>用结构化描述锁定角色外观 + 性格。</p>
+</li>
+<li><p><strong>分镜生成</strong><br>让模型按照“Pixar Storyboard Prompt”生成每一帧画面提示词。</p>
+</li>
+<li><p><strong>图生视频</strong><br>将每张分镜丢入 Img2Video 工具：Sora &#x2F; Veo &#x2F; Kling &#x2F; Runway。</p>
+</li>
+<li><p><strong>剪辑整理</strong><br>导出后做轻量剪辑（衔接 &#x2F; 色彩 &#x2F; 音频）。</p>
+</li>
+</ol>
+<hr>
+<h1 id="五、常见问题避坑总结"><a href="#五、常见问题避坑总结" class="headerlink" title="五、常见问题避坑总结"></a>五、常见问题避坑总结</h1><h2 id="1-人脸崩坏、换脸"><a href="#1-人脸崩坏、换脸" class="headerlink" title="1. 人脸崩坏、换脸"></a>1. 人脸崩坏、换脸</h2><ul>
+<li>使用近景清晰源图  </li>
+<li>明确指定：<br>ensure the face is consistent with the reference</li>
+</ul>
+<p>yaml<br>复制代码</p>
+<ul>
+<li>避免多人入镜</li>
+</ul>
+<h2 id="2-口型错误"><a href="#2-口型错误" class="headerlink" title="2. 口型错误"></a>2. 口型错误</h2><ul>
+<li>英文最稳  </li>
+<li>中文拆分短句  </li>
+<li>必要时用拼音输入</li>
+</ul>
+<h2 id="3-运镜抖动"><a href="#3-运镜抖动" class="headerlink" title="3. 运镜抖动"></a>3. 运镜抖动</h2><ul>
+<li>提示词加入：stable camera  </li>
+<li>动作越复杂 → 镜头越简单  </li>
+<li>镜头越复杂 → 动作越简单</li>
+</ul>
+<hr>
+<h1 id="六、三种可直接套用的视频风格案例"><a href="#六、三种可直接套用的视频风格案例" class="headerlink" title="六、三种可直接套用的视频风格案例"></a>六、三种可直接套用的视频风格案例</h1><h2 id="案例-1：赛博机械龙（Cyberpunk-Dragon）"><a href="#案例-1：赛博机械龙（Cyberpunk-Dragon）" class="headerlink" title="案例 1：赛博机械龙（Cyberpunk Dragon）"></a>案例 1：赛博机械龙（Cyberpunk Dragon）</h2><p>雷暴中的赛博城市，高空盘旋的金属巨龙，闪电照亮其金属鳞片，镜头跟随飞行，8K，强对比氛围。</p>
+<p>shell<br>复制代码</p>
+<h2 id="案例-2：超级英雄灾难片（Heroic-Disaster）"><a href="#案例-2：超级英雄灾难片（Heroic-Disaster）" class="headerlink" title="案例 2：超级英雄灾难片（Heroic Disaster）"></a>案例 2：超级英雄灾难片（Heroic Disaster）</h2><p>高楼倒塌，英雄跃起托住建筑碎片，周围烟尘翻涌，慢动作拍摄，电影级构图。</p>
+<p>shell<br>复制代码</p>
+<h2 id="案例-3：深海潜艇（Deep-Sea-Submarine）"><a href="#案例-3：深海潜艇（Deep-Sea-Submarine）" class="headerlink" title="案例 3：深海潜艇（Deep Sea Submarine）"></a>案例 3：深海潜艇（Deep Sea Submarine）</h2><p>潜艇缓慢下潜，光线逐渐暗淡，巨大未知生物从舷窗外掠过，低频震动音效，压抑氛围。</p>
+<p>yaml<br>复制代码</p>
+<hr>
+<h1 id="七、音效脚本结构（Video-Audio-完整体验）"><a href="#七、音效脚本结构（Video-Audio-完整体验）" class="headerlink" title="七、音效脚本结构（Video + Audio &#x3D; 完整体验）"></a>七、音效脚本结构（Video + Audio &#x3D; 完整体验）</h1><p>优秀的视频需要三层声音：</p>
+<h3 id="1-环境音（持续氛围）"><a href="#1-环境音（持续氛围）" class="headerlink" title="1. 环境音（持续氛围）"></a>1. 环境音（持续氛围）</h3><ul>
+<li>风声、海浪、城市噪音  </li>
+<li>给画面带来空间感</li>
+</ul>
+<h3 id="2-动作音（关键声效）"><a href="#2-动作音（关键声效）" class="headerlink" title="2. 动作音（关键声效）"></a>2. 动作音（关键声效）</h3><ul>
+<li>脚步、爆炸、衣物摩擦、机械声</li>
+</ul>
+<h3 id="3-情绪音乐（Mood-Music）"><a href="#3-情绪音乐（Mood-Music）" class="headerlink" title="3. 情绪音乐（Mood Music）"></a>3. 情绪音乐（Mood Music）</h3><ul>
+<li>钢琴、合成器、管弦乐等  </li>
+<li>决定整条视频的情绪色彩</li>
+</ul>
+<hr>
+<h1 id="结语：如何最大化使用这篇指南？"><a href="#结语：如何最大化使用这篇指南？" class="headerlink" title="结语：如何最大化使用这篇指南？"></a>结语：如何最大化使用这篇指南？</h1><p>你可以把它当成：</p>
+<ul>
+<li>AI 视频提示词模板库  </li>
+<li>工作流 SOP  </li>
+<li>失败排查清单  </li>
+<li>创作灵感来源</li>
+</ul>
+<p>后续我们会继续更新更多 NovaEdge 风格内容，包括：</p>
+<ul>
+<li>图生视频提示词大全  </li>
+<li>角色一致性（Character Consistency）完全指南  </li>
+<li>不同平台（Sora &#x2F; Kling &#x2F; Veo3）深度对比  </li>
+<li>NovaEdge 自制动画系列幕后笔记</li>
+</ul>
+<p>欢迎关注下一篇教程。</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p>© 2025 NovaEdge Studio</p>
+                         <p>NovaEdge · AI · 动画 · 创作实验室</p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
